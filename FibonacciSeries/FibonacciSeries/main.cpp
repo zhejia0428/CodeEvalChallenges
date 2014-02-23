@@ -70,13 +70,13 @@ int main(int argc, const char * argv[])
 {
     if (argc != 2) {
         cout << "No input file name found.";
-    }
-    
-    vector<int> inputFibRequests = getInputFromFile(argv[1]);
-    
-    for (int i = 0; i < inputFibRequests.size(); i++) {
-        int requestedValue = inputFibRequests[i];
-        getNthFib(requestedValue);
+    } else {
+        vector<int> inputFibRequests = getInputFromFile(argv[1]);
+        
+        for (int i = 0; i < inputFibRequests.size(); i++) {
+            int requestedValue = inputFibRequests[i];
+            getNthFib(requestedValue);
+        }
     }
     
     return 0;

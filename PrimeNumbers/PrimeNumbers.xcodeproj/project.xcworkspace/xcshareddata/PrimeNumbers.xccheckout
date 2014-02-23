@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53747F91-313A-4B2E-9BD7-CFF9DCC8F1DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PrimeNumbers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>295E0A62-46C9-4AC6-A853-5C546EFAFFFB</key>
+		<string>ssh://github.com/zhejia0428/CodeEvalChallenges.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PrimeNumbers/PrimeNumbers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>295E0A62-46C9-4AC6-A853-5C546EFAFFFB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zhejia0428/CodeEvalChallenges.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>295E0A62-46C9-4AC6-A853-5C546EFAFFFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>295E0A62-46C9-4AC6-A853-5C546EFAFFFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CodeEvalChallenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>
