@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED8EBE2A18B972930016BDA3"
-               BuildableName = "FibonacciSeries"
-               BlueprintName = "FibonacciSeries"
-               ReferencedContainer = "container:FibonacciSeries.xcodeproj">
+               BlueprintIdentifier = "ED8EBE4018B9AF760016BDA3"
+               BuildableName = "SumOfPrimes"
+               BlueprintName = "SumOfPrimes"
+               ReferencedContainer = "container:SumOfPrimes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED8EBE2A18B972930016BDA3"
-            BuildableName = "FibonacciSeries"
-            BlueprintName = "FibonacciSeries"
-            ReferencedContainer = "container:FibonacciSeries.xcodeproj">
+            BlueprintIdentifier = "ED8EBE4018B9AF760016BDA3"
+            BuildableName = "SumOfPrimes"
+            BlueprintName = "SumOfPrimes"
+            ReferencedContainer = "container:SumOfPrimes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,18 +51,12 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED8EBE2A18B972930016BDA3"
-            BuildableName = "FibonacciSeries"
-            BlueprintName = "FibonacciSeries"
-            ReferencedContainer = "container:FibonacciSeries.xcodeproj">
+            BlueprintIdentifier = "ED8EBE4018B9AF760016BDA3"
+            BuildableName = "SumOfPrimes"
+            BlueprintName = "SumOfPrimes"
+            ReferencedContainer = "container:SumOfPrimes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "input.txt"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -75,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED8EBE2A18B972930016BDA3"
-            BuildableName = "FibonacciSeries"
-            BlueprintName = "FibonacciSeries"
-            ReferencedContainer = "container:FibonacciSeries.xcodeproj">
+            BlueprintIdentifier = "ED8EBE4018B9AF760016BDA3"
+            BuildableName = "SumOfPrimes"
+            BlueprintName = "SumOfPrimes"
+            ReferencedContainer = "container:SumOfPrimes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

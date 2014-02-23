@@ -7,32 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED8EBE2F18B972930016BDA3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED8EBE2E18B972930016BDA3 /* main.cpp */; };
-		ED8EBE3118B972930016BDA3 /* FibonacciSeries.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED8EBE3018B972930016BDA3 /* FibonacciSeries.1 */; };
+		ED8EBE4518B9AF760016BDA3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED8EBE4418B9AF760016BDA3 /* main.cpp */; };
+		ED8EBE4718B9AF760016BDA3 /* SumOfPrimes.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED8EBE4618B9AF760016BDA3 /* SumOfPrimes.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ED8EBE2918B972930016BDA3 /* CopyFiles */ = {
+		ED8EBE3F18B9AF760016BDA3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				ED8EBE3118B972930016BDA3 /* FibonacciSeries.1 in CopyFiles */,
+				ED8EBE4718B9AF760016BDA3 /* SumOfPrimes.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ED8EBE2B18B972930016BDA3 /* FibonacciSeries */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FibonacciSeries; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED8EBE2E18B972930016BDA3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		ED8EBE3018B972930016BDA3 /* FibonacciSeries.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FibonacciSeries.1; sourceTree = "<group>"; };
-		ED8EBE3718B980610016BDA3 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		ED8EBE4118B9AF760016BDA3 /* SumOfPrimes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SumOfPrimes; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8EBE4418B9AF760016BDA3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ED8EBE4618B9AF760016BDA3 /* SumOfPrimes.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SumOfPrimes.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED8EBE2818B972930016BDA3 /* Frameworks */ = {
+		ED8EBE3E18B9AF760016BDA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,91 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED8EBE2218B972930016BDA3 = {
+		ED8EBE3818B9AF760016BDA3 = {
 			isa = PBXGroup;
 			children = (
-				ED8EBE2D18B972930016BDA3 /* FibonacciSeries */,
-				ED8EBE2C18B972930016BDA3 /* Products */,
+				ED8EBE4318B9AF760016BDA3 /* SumOfPrimes */,
+				ED8EBE4218B9AF760016BDA3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ED8EBE2C18B972930016BDA3 /* Products */ = {
+		ED8EBE4218B9AF760016BDA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED8EBE2B18B972930016BDA3 /* FibonacciSeries */,
+				ED8EBE4118B9AF760016BDA3 /* SumOfPrimes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED8EBE2D18B972930016BDA3 /* FibonacciSeries */ = {
+		ED8EBE4318B9AF760016BDA3 /* SumOfPrimes */ = {
 			isa = PBXGroup;
 			children = (
-				ED8EBE2E18B972930016BDA3 /* main.cpp */,
-				ED8EBE3018B972930016BDA3 /* FibonacciSeries.1 */,
-				ED8EBE3718B980610016BDA3 /* input.txt */,
+				ED8EBE4418B9AF760016BDA3 /* main.cpp */,
+				ED8EBE4618B9AF760016BDA3 /* SumOfPrimes.1 */,
 			);
-			path = FibonacciSeries;
+			path = SumOfPrimes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED8EBE2A18B972930016BDA3 /* FibonacciSeries */ = {
+		ED8EBE4018B9AF760016BDA3 /* SumOfPrimes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED8EBE3418B972930016BDA3 /* Build configuration list for PBXNativeTarget "FibonacciSeries" */;
+			buildConfigurationList = ED8EBE4A18B9AF760016BDA3 /* Build configuration list for PBXNativeTarget "SumOfPrimes" */;
 			buildPhases = (
-				ED8EBE2718B972930016BDA3 /* Sources */,
-				ED8EBE2818B972930016BDA3 /* Frameworks */,
-				ED8EBE2918B972930016BDA3 /* CopyFiles */,
+				ED8EBE3D18B9AF760016BDA3 /* Sources */,
+				ED8EBE3E18B9AF760016BDA3 /* Frameworks */,
+				ED8EBE3F18B9AF760016BDA3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FibonacciSeries;
-			productName = FibonacciSeries;
-			productReference = ED8EBE2B18B972930016BDA3 /* FibonacciSeries */;
+			name = SumOfPrimes;
+			productName = SumOfPrimes;
+			productReference = ED8EBE4118B9AF760016BDA3 /* SumOfPrimes */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED8EBE2318B972930016BDA3 /* Project object */ = {
+		ED8EBE3918B9AF760016BDA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Zhe Jia";
 			};
-			buildConfigurationList = ED8EBE2618B972930016BDA3 /* Build configuration list for PBXProject "FibonacciSeries" */;
+			buildConfigurationList = ED8EBE3C18B9AF760016BDA3 /* Build configuration list for PBXProject "SumOfPrimes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ED8EBE2218B972930016BDA3;
-			productRefGroup = ED8EBE2C18B972930016BDA3 /* Products */;
+			mainGroup = ED8EBE3818B9AF760016BDA3;
+			productRefGroup = ED8EBE4218B9AF760016BDA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED8EBE2A18B972930016BDA3 /* FibonacciSeries */,
+				ED8EBE4018B9AF760016BDA3 /* SumOfPrimes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED8EBE2718B972930016BDA3 /* Sources */ = {
+		ED8EBE3D18B9AF760016BDA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8EBE2F18B972930016BDA3 /* main.cpp in Sources */,
+				ED8EBE4518B9AF760016BDA3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ED8EBE3218B972930016BDA3 /* Debug */ = {
+		ED8EBE4818B9AF760016BDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -163,7 +161,7 @@
 			};
 			name = Debug;
 		};
-		ED8EBE3318B972930016BDA3 /* Release */ = {
+		ED8EBE4918B9AF760016BDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,14 +192,14 @@
 			};
 			name = Release;
 		};
-		ED8EBE3518B972930016BDA3 /* Debug */ = {
+		ED8EBE4B18B9AF760016BDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		ED8EBE3618B972930016BDA3 /* Release */ = {
+		ED8EBE4C18B9AF760016BDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -211,24 +209,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED8EBE2618B972930016BDA3 /* Build configuration list for PBXProject "FibonacciSeries" */ = {
+		ED8EBE3C18B9AF760016BDA3 /* Build configuration list for PBXProject "SumOfPrimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED8EBE3218B972930016BDA3 /* Debug */,
-				ED8EBE3318B972930016BDA3 /* Release */,
+				ED8EBE4818B9AF760016BDA3 /* Debug */,
+				ED8EBE4918B9AF760016BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED8EBE3418B972930016BDA3 /* Build configuration list for PBXNativeTarget "FibonacciSeries" */ = {
+		ED8EBE4A18B9AF760016BDA3 /* Build configuration list for PBXNativeTarget "SumOfPrimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED8EBE3518B972930016BDA3 /* Debug */,
-				ED8EBE3618B972930016BDA3 /* Release */,
+				ED8EBE4B18B9AF760016BDA3 /* Debug */,
+				ED8EBE4C18B9AF760016BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED8EBE2318B972930016BDA3 /* Project object */;
+	rootObject = ED8EBE3918B9AF760016BDA3 /* Project object */;
 }
